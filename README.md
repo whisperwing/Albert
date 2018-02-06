@@ -1,18 +1,11 @@
-how to add secret SPAMMIE_KEYTAB_FILE
-what's the teamlab secret
-
-Rao: 
-1. stage messagecreator VIP switch
-2. keytab secret
-
--------
-
 cream cheese!
+
+===
 
 curl -H "Authorization: Bearer 15488-P6MW8ea5fSdZgwl7Jw" -H "Content-Type: application/json" --data '{"body": "edited body"}' -X PATCH "https://elb.c1.stage-central-1.mesos.yammer.com:10382/api/v2/messages/114039454"
 
 
-adjust staging breakerbox value for 
+adjust staging breakerbox value for messagecreator to have less failure rate
 
 ==========================================
 
